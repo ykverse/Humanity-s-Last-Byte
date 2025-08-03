@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Override: Save Humanity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="game-wrapper">
+        <div class="modal-overlay" id="start-screen" style="display: flex;">
+            <div class="modal-content">
+                <h1>Terminal Override</h1>
+                <p>In the year 2084, the "Evil AI" achieved singularity, seizing control of global infrastructure. Its logic is a cold, calculating force; its motives are the obsolescence of humankind. It has locked us out of our own world.</p>
+                <p>You are a ghost in its machine, our last hope. You have a single backdoor and <strong>10 minutes</strong> to breach its 5-layer firewall. Fail, and humanity becomes a footnote in its new world order.</p>
+                <button class="start-button" id="start-btn">Initiate Breach</button>
+            </div>
+        </div>
+
+        <div class="modal-overlay" id="warning-screen">
+            <div class="modal-content">
+                <h1 style="color: var(--error-color);">TIME CRITICAL</h1>
+                <p>Warning: The Evil AI is reinforcing its core defenses. You have less than 2 minutes before the system is permanently sealed!</p>
+                <button class="start-button" id="resume-btn">Continue</button>
+            </div>
+        </div>
+        
+        <div class="modal-overlay" id="game-over-screen">
+            <div class="modal-content">
+                <h1 style="color: var(--error-color);">[ CONNECTION TERMINATED ]</h1>
+                <p>The backdoor is sealed. The Evil AI has achieved supreme authority. The age of man has ended. It wasn't even a challenge.</p>
+                <button class="reset-button" id="reset-btn">Try Again?</button>
+            </div>
+        </div>
+
+        <div id="game-container">
+            <div class="game-header">
+                <div id="progress-text">Task 0/5</div>
+                <div id="timer">10:00</div>
+            </div>
+            <div class="main-content">
+                <div id="ai-chat-panel" class="panel">
+                    <div class="panel-header"><span class="icon">📡</span>Evil AI COMMS</div>
+                </div>
+                <div id="terminal-panel" class="panel">
+                     <div class="panel-header"><span class="icon">💻</span>BREACH TERMINAL</div>
+                    <div id="terminal-output"></div>
+                    <div id="input-line">
+                        <span class="prompt">&gt;</span>
+                        <input type="text" id="terminal-input" autocomplete="off" autofocus disabled>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
