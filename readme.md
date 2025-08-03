@@ -1,6 +1,8 @@
-# 🚨 Terminal Override: A Beginner CTF Experience
+# 🚨 Humanity-s-Last-Byte: A Beginner CTF Experience
 
-Welcome to **Terminal Override**, a beginner-friendly CTF (Capture the Flag) game where your mission is to outsmart an Evil AI that has taken over the planet.
+Experience in Live https://ykverse.github.io/Humanity-s-Last-Byte/
+
+Welcome to **Humanity-s-Last-Byte**, a beginner-friendly CTF (Capture the Flag) game where your mission is to outsmart an Evil AI that has taken over the planet.
 
 You’ve got **10 minutes** to crack **5 tasks**, each testing your logic, pattern recognition, and basic cybersecurity instincts.
 
@@ -43,8 +45,7 @@ Just open `index.html` in any modern browser — that’s it!
 
 ## 🖼️ Screenshots
 
-_Add screenshots of gameplay here_  
-(You can take screenshots of different levels and paste them into this README later)
+<img width="1907" height="855" alt="image" src="https://github.com/user-attachments/assets/d7ec7fff-0217-4517-9fd0-ed83a7f5f8b5" />
 
 ---
 
@@ -59,7 +60,7 @@ _Add screenshots of gameplay here_
 
 ## 🙌 Credits
 
-Made with 💻 and too much ☕ by [Your Name]
+Made with 💻 and too much ☕ by me
 
 ---
 
